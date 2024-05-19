@@ -6,6 +6,8 @@ channel_feed_urls = [
     'https://www.youtube.com/feeds/videos.xml?channel_id=UCIYLOcEUX6TbBo7HQVF2PKA',  # 9News
     'https://www.youtube.com/feeds/videos.xml?channel_id=UCoMdktPbSTixAyNGwb-UYkQ',  # SkyNews
     'https://www.youtube.com/feeds/videos.xml?channel_id=UCVgO39Bk5sMo66-6o6Spn6Q',  # ABC News (Australia)
+    'https://www.youtube.com/feeds/videos.xml?channel_id=UC64A-bbH15b5kN5A32CErOA',  # 10News
+    'https://www.youtube.com/feeds/videos.xml?channel_id=UCX15yQQOgUllNFd8wNRV1KQ',  # A Current Affair
 ]
 
 # Reddit credentials
