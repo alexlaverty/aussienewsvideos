@@ -78,12 +78,12 @@ def publish_to_subreddit(reddit, subreddit_name, video_data):
             try:
                 submission = subreddit.submit(title=title, url=url)
                 print(f"Published: {title}")
-                published_videos.append((title, url, published, views, channel_name, True))
+                published_videos.append((title, url, published, views, channel_name))
             except Exception as e:
                 print(f"Failed to publish {title}: {e}")
         else:
             print(f"URL already published: {url}")
-            published_videos.append((title, url, published, views, channel_name, False))
+            #published_videos.append((title, url, published, views, channel_name, False))
 
     # Write published videos to CSV file
     if published_videos:
