@@ -19,7 +19,7 @@ This script automates the process of discovering new videos, filtering them by d
   * `channel_feed_urls`: List of channel feed URLs
   * `reddit_credentials`: Dictionary containing Reddit API credentials
   * `subreddit_name`: Name of the subreddit to publish to
-* Running the script: Execute the script using python main.py
+* Running the script: Execute the script using `python main.py`
 * Output: The script will publish the top 10 most viewed videos to the specified subreddit and write video data to videos.csv
 
 ## Requirements
